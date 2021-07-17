@@ -32,7 +32,7 @@ w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 #print(Augury.harvestAllPendingOMENSwapForUSDC())
 
 
-print(Augury.poolSellStop(0.2060, addresses["OMEN"]))
+print(Augury.poolSellStop(0.2060))
 '''
 monitor = True
 while(monitor):

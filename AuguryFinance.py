@@ -374,7 +374,7 @@ class AuguryFinance:
             return False
     '''
 
-    def poolSellStop(self, sellPrice, tokenAddr):
+    def poolSellStop(self, sellPrice):
         '''
         con = sqlite3.connect('AuguryV4.db')
         df = pd.read_sql_query("SELECT * FROM data", con)
@@ -390,7 +390,7 @@ class AuguryFinance:
         data=pd.read_sql_query("SELECT * FROM Reviews",con)
         '''
 
-        currPrice = Quickswap.getPriceInUSDC(tokenAddr)
+        currPrice = Quickswap.getPriceInUSDC(addresses["OMEN"])
         if(currPrice <= sellPrice):
 
             # Get user amount staked in pool
