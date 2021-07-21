@@ -26,5 +26,6 @@ addresses = {
     "WMATIC-WETH" : Web3.toChecksumAddress('0xc4e595acDD7d12feC385E5dA5D43160e8A0bAC0E'),
     "AAVE_WETH_GATEWAY" : Web3.toChecksumAddress('0xbEadf48d62aCC944a06EEaE0A9054A90E5A7dc97'),
     "AAVE_Router" : Web3.toChecksumAddress('0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf'),
-    "AAVE_Rewards" : Web3.toChecksumAddress('0x357D51124f59836DeD84c8a1730D72B749d8BC23')
+    "AAVE_Rewards" : Web3.toChecksumAddress('0x357D51124f59836DeD84c8a1730D72B749d8BC23'),
+    "WETH" : Web3.toChecksumAddress('0x7ceb23fd6bc0add59e62ac25578270cff1b9f619')
 }

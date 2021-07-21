@@ -391,6 +391,7 @@ class AuguryFinance:
         '''
 
         currPrice = Quickswap.getPriceInUSDC(addresses["OMEN"])
+        print(currPrice)
         if(currPrice <= sellPrice):
 
             # Get user amount staked in pool

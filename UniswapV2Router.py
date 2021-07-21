@@ -11,6 +11,7 @@ from ERC20 import ERC20
 from wallet import wallet
 import json
 from UniswapV2LpToken import UniswapV2LPtoken
+import json
 
 
 #---------------------------------------------------------
@@ -431,5 +432,5 @@ class UniswapV2Router:
         '''
 '''
 a = UniswapV2Router(addresses["QuickswapRouter"])
-print(a.removeLiquidity(Web3.toChecksumAddress('0x0df9e46c0eaedf41b9d4bbe2cea2af6e8181b033')))
+print(a.swapExactTokensForTokens(10000, addresses['USDC'], addresses['OMEN']))
 '''
